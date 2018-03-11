@@ -1,5 +1,6 @@
 import tkinter as tk
 import tkFont
+import time
 class ADD:
  def __init__(self):
 	self.root3 = tk.Tk()
@@ -48,6 +49,7 @@ class ADD:
         foo.write(self.entry3.get())
         foo.write('\n')
 	foo.close()
+	time.sleep(2)
 	self.clear()
 
 
